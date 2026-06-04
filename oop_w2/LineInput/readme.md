@@ -1,10 +1,10 @@
 ### How to compile
 ```bash
-g++ -std=c++23 *.cpp ../PointInput/2D_Point.cpp -o chuong_trinh
+g++ -std=c++23 *.cpp ../PointInput/2D_Point.cpp -o main
 ```
 ### How to run app
 ```bash
-./chuong_trinh
+./main
 ```
 
 ### Class Diagram
