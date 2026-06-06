@@ -10,6 +10,15 @@ g++ -std=c++23 *.cpp ../PointInput/2D_Point.cpp -o main
 ### Class Diagram
 ```mermaid
 classDiagram
+    class Point {
+        <<struct>>
+        +float X
+        +float Y
+        +Point()
+        +~Point()
+        +Input() void
+        +toString() string
+    }
     class Line {
         -Point StartPoint
         -Point EndPoint
@@ -23,4 +32,5 @@ classDiagram
         +toString() string
         +getLength() float
     }
+    Line *-- Point : has a
 ```
